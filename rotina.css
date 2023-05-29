@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+.texto{
+    margin-left: 8%;
+    margin-top: 5%;
+
+}
+
+.texto h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+
+}
+.c-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+.videos{
+    margin: 3px;
+    padding: auto;
+}
+
+.imagem-video{
+    position: absolute;
+width: 236px;
+height: 236px;
+left: 258px;
+top: 210px;
+
+background: url(perfil.jpg);
+border-radius: 384px;
+
+}
+
+
+.nt{font-family: 'Sarala', sans-serif;
+    
+position: absolute;
+width: 672px;
+height: 160px;
+left: 525px;
+top: 237px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+}
+
+.imagem-paulo{
+    position: absolute;
+width: 242px;
+height: 236px;
+left: 1055px;
+top: 446px;
+
+background: url(Pulo1.jpg);
+border-radius: 360px;
+}
+
+.pt{
+    font-family: 'Sarala', sans-serif;
+    position: absolute;
+    width: 351px;
+    height: 103px;
+    left: 707px;
+    top: 555px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #000000
+}
+
+.imagem2{
+    position: absolute;
+width: 241.99px;
+height: 249.92px;
+left: 270px;
+top: 682.23px;
+}
+.tt{font-family: 'Sarala', sans-serif;
+    position: absolute;
+width: 534px;
+height: 185px;
+left: 557px;
+top: 747px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+
+
+}

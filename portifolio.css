@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+
+}
+.c-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.texto{
+    margin-left: 8%;
+    margin-top: 5%;
+
+}
+
+.texto h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.texto span{
+    color: blueviolet;
+}
+
+.texto p{
+    color: #555;
+    line-height: 20px;
+}
+.texto a{ background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display:inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+
+.imagem img{
+    height: 80%;
+    position: absolute;
+    left: 75%;
+    bottom: 0;
+    transform: translateX(-20%);
+    transition:bottom 1s, left 1s;
+}
+.social-media a i{
+    color: gray;
+    font-size: large;
+    transition: 0.5s;
+    padding: 10px 0;
+}
+
+.social-media a i:hover{
+    transition: 0.5s;
+    transform: scale(2);
+}
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
